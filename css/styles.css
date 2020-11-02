@@ -9,6 +9,8 @@ html{
     font-size: 10px;
     --text-color: #262626;
     --btn-color: #ff6033;
+    scroll-behavior: smooth;
+
 }
 body{
     font-family: 'Raleway', sans-serif;
@@ -51,6 +53,7 @@ main{
     flex-wrap: wrap;
     list-style: none;
     margin: 0;
+    
 }
 .nav__items{
     text-transform: uppercase;
@@ -104,8 +107,12 @@ main{
     color: white;
 }
 .scrol{
-    text-align: center;
-    padding: 50px;
+    /* text-align: center; */
+    margin: 0px auto;
+    padding-bottom: 50px;
+    display: block;
+    width: 30px;
+    
 
 }
 .box{
